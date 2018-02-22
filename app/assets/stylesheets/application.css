@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+body, html {    /*the outer layer of the site and global style attributes*/
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	background: #f7f5f2;
+	position: relative;
+}
